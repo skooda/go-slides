@@ -1,0 +1,45 @@
+body {
+  font-family: monospace;
+}
+
+ul {
+  display: inline-block;
+  margin-left: -40px;
+  text-align: left;
+}
+
+img {
+  max-height: 688px;
+  max-width: 920px;
+}
+
+.small img{
+  max-height: 500px;
+  max-width: 920px;
+}
+
+table {
+  display: inline-block;
+}
+
+.remark-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  text-align: center;
+}
+
+.remark-slide-content {
+  font-size: 30px;
+}
+
+.remark-code {
+  font-size: 30px;
+  text-align: left;
+  display: inline-block;
+}
+
+.remark-slide-number {
+  display: none;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cryptography-slides",
+  "version": "1.0.0",
+  "description": "Slides for cryptography conference",
+  "author": "P@v3l.cz",
+  "license": "MIT",
+  "scripts": {
+    "build": "markdown-to-slides slides.md -o index.html -s slides.css -j slides.js",
+    "run-on-change": "run-when-changed --watch \"slides.md\" --watch \"slides.css\" --exec \"npm run build\"",
+    "livereload": "livereload ./index.html",
+    "watch": "parallelshell \"npm run livereload\" \"npm run run-on-change\""
+  },
+  "dependencies": {
+    "livereload": "^0.7.0",
+    "markdown-to-slides": "^1.0.5",
+    "parallelshell": "^3.0.2",
+    "run-when-changed": "^2.1.0"
+  }
+}
