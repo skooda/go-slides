@@ -9,7 +9,7 @@ ul {
 }
 
 img {
-  max-height: 688px;
+  max-height: 590px;
   max-width: 920px;
 }
 
@@ -20,6 +20,16 @@ img {
 
 table {
   display: inline-block;
+}
+
+code {
+  border: 1px solid #666;
+  background: #ccc;
+  padding: 10px;
+}
+
+.remark-code {
+  font-size: 24px !important
 }
 
 .remark-slide {

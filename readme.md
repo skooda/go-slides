@@ -1,14 +1,11 @@
 
 
-# Cryptography slides
-Slides created for [cryptography conference][1] organized by [tech-heaven].
-
-## I want to see that slides
-Just check http://crypto.skooda.org
+# Go slides
+Slides for short internal talk about GoLang basics.
 
 ## Build and run
-- Clone this repository `git clone https://github.com/skooda/cryptography-slides.git`.
-- Step into application directory `cd cryptography-slides`.
+- Clone this repository `git clone https://github.com/skooda/go-slides.git`.
+- Step into application directory `cd go-slides`.
 - Install necessary dependencies `npm install`.
 - Build slides `npm run build`.
 - Open `index.html` file in your favorite browser.
@@ -18,6 +15,3 @@ Just check http://crypto.skooda.org
 - Install necessary dependencies `npm install`.
 - Then run `npm run watch` and open `index.html` in your favorite browser.
 - This method supports livereload, so you can edit `slides.md` and watch changes online.
-
-[tech-heaven]: https://techheaven.org/
-[1]: https://www.facebook.com/events/2530630933829598/
